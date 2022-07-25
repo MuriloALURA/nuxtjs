@@ -7,7 +7,7 @@
             <br>
             <br>
 
-            <div v-for="product in products" :key="'product.id'">
+            <div v-for="product in products" :key="product.id">
                 {{product.title}}
             </div>
 
