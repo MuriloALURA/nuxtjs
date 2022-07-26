@@ -16,12 +16,22 @@ export default {
     ]
   },
 
+  publicRuntimeConfig: {
+    youtube_api_key: process.env.YOUTUBE_API_KEY
+  },
+  privateRuntimeConfig: {
+    facebook_api_key: process.env.FACEBOOK_API_KEY
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '@/plugins/my-plugin',
+    '@/plugins/dayjs',
+    '@/plugins/vtooltip'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
