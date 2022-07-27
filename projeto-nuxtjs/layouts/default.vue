@@ -11,7 +11,6 @@
 
               <div class="hidden sm:block sm:ml-6">
                 <div class="flex space-x-4">
-                  <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                   <NuxtLink to="/" :class="{
                     'bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium': $route.name === 'index',
                     'text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium': $route.name !== 'index'
@@ -20,9 +19,6 @@
                     'bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium': $route.name === 'categories',
                     'text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium': $route.name !== 'categories'
                   }">Categorias</NuxtLink>
-
-                  <!--<a href="#" aria-current="page">Home</a>
-                  <a href="#" >Categorias</a>-->
                 </div>
               </div>
             </div>
@@ -47,11 +43,12 @@
         </div>
       </nav>
     </header>
-      <div class="max-w-7xl mx-auto p-4">
-        <div class="mt-4">
-          <Nuxt />
-        </div>
+
+    <div class="max-w-7xl mx-auto p-4">
+      <div class="mt-4">
+        <Nuxt />
       </div>
+  </div>
   </div>
 </template>
 
