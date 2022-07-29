@@ -51,16 +51,16 @@
     },
     {
       "id": 8,
-      "description": "Google stcok",
-      "amount": 100,
+      "description": "Google stock",
+      "amount": "-100",
       "date": "2022-01-15",
       "categoryId": 5
     },
     {
       "date": "2022-07-15",
       "amount": "24",
-      "description": "Teste",
-      "categoryId": "5",
+      "description": "Teste2",
+      "categoryId": 5,
       "id": 9
     },
     {
